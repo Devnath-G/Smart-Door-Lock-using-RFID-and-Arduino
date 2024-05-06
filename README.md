@@ -20,11 +20,20 @@ This project is about creating a smart door lock system using Arduino and RFID t
 - Buzzer
 - Breadboard and Jumper Wires
 
+
+## How to Identify the UID for your RFID Tags:
+- First open up your Arduino IDE and ensure you have the "MFRC522" library installed and connect your components.
+- Once coonnected, Go to File > Examples > MFRC522 > DumpInfo.
+- Once you click on DumpInfo and new code will open, compile and upload the following code to your Arduino.
+- Once that's done open the Serial Monitor and scan your tag, once scanned the UID will be displayed and copy/note down the UID and paste it into your code to ensure the RFID Moduel accepts your tag. 
+
+
+
 ## Installation
 
 1. **Hardware Setup**: Connect the RFID reader, servo motor, LEDs, and Arduino according to the circuit diagram.
 2. **Upload Code**: Upload the Arduino code provided in the repository to your Arduino board.
-3. **Configure RFID Tags**: Program the RFID tags/cards with unique IDs for each authorized user.
+3. **Configure RFID Tags**: Program the RFID tags/cards with unique IDs for each authorized user. (Please Note: Change the UID Tag according to your tag as every tag has its own unique UID)
 4. **Mount the System**: Mount the components on or near the door you want to control access to.
 
 ## Usage
