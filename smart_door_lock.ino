@@ -1,3 +1,5 @@
+//Please go through the README File, there I have specified how to know your UID of your card/tag to give access
+
 #include <SPI.h>
 #include <MFRC522.h>
 #include <Servo.h>
